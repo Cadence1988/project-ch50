@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="about">
+
+    <img src="{% static 'images/dreamcast.jpg'%}">
+    <h1>Welcome to about page</h1>
+
+</div>
+{% endblock %}
